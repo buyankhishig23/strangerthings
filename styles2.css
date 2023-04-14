@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: palevioletred;
+    font-family: 'Arial';
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 72px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #000000;
+  }
+  
+  p {
+    font-size: 60px;
+    
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #000000;
+  }
+  
+  img {
+    width: 100%;
+    opacity: 0.3;
+  }
+  body {
+    background-image: url('.//HandLuggageOnly-5-7.jpg');
+    background-size: cover;
+    opacity: 1; /* change the value to set the desired opacity */
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    /* styles for screens that are 768px or less */
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    
+    .container {
+      width: 90%;
+    }
+  }
+  
